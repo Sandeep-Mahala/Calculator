@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+html, body{
+    height: 100%;
+    width:100%;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(80, 29, 245), rgb(240, 55, 203));
+    background-repeat: no-repeat;
+    
+}
+input[type="text"]{
+    background-color:black;
+    color:white;
+}
+
+.button{
+    padding: 20px;
+    font-size: 18px;
+    width: 66px;
+    margin: 0px 3px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+}
+.button:nth-child(even){
+    color:rgb(80, 29, 245);
+}
+.button:nth-child(odd){
+    color:rgb(240, 55, 203);
+}
+.row{
+    margin: 12px  4px;
+    
+}
+.row input{
+    font-size: 20px;
+    width: 290px;
+    margin: 0px;
+    padding: 6px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
